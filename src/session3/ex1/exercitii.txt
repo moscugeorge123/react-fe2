@@ -1,0 +1,23 @@
+3 children components - all actions will be executed on click
+   - first will generate 2 random numbers between 1-100
+   - second will add then
+   - third will subtract them
+parent shows all the results of their children
+
+
+
+parent will have 4 children
+ - first will be a circle which will act as their children will tell
+ - second children will give spin command to the circle component
+ - third child will have 2 buttons which will disable the child 2 and 4 for 5 seconds
+ - forth child will stop the spinning circle. If there is no spinning the 4th child will no be displayed
+
+
+
+
+Build a page with a sidebar and a view
+ - the sidebar will have the following items: "Cat", "Dog", "Hamster", "Rhino"
+ - when an items is clicked 2 actions will happen:
+	1. the item is highlighted
+	2. the view is updated with an image representing the animal
+ - the sidebar and the view should be 2 different components
